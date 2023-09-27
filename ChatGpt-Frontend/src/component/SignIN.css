@@ -1,0 +1,63 @@
+.Sign-In{
+    width:100vw;
+    height:100vh;
+    background-color: #0d2e3b;
+    display:flex;
+    align-items:center;
+}
+a{
+    color:gold;
+}
+
+.Sign-In-Container{
+    width:50vw;
+    height:90vh;
+    color: white;
+    border-radius: 12px;
+    margin-left: 8vw;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.7vw;
+}
+.Sign-In-Form form{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5vw;
+    color: aliceblue;
+}
+.Sign-In-Form form label{
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+.Sign-In-Form form input{
+    width: 80%;
+    height: 2vw;
+    border-radius: 12px;
+    border-style: none;
+    margin-bottom: 0.2em;
+    padding: 4px 10px;
+}
+
+
+.Sign-In-Form form button{
+    width: 40%;
+    height: 2.4em;
+    border-radius: 12px;
+    border-style: none;
+    margin-top: 1em;
+    background-color: rgba(20, 235, 117, 0.821);
+    color: rgb(255, 255, 255);
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+
+}
+
+
+.Sign-In-Header span{
+    color: rgb(127, 255, 185);
+    font-size: 1.4em;
+
+}

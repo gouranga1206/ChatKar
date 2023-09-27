@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap");
+
+.heroPage{
+    width:100%;
+    height:100vh;
+    background-color: #164B60;
+    display: flex;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-family: "Roboto Mono", monospace;
+    font-size: 2vw;
+  }
+
+  .banner{
+    line-height: 10vh;
+    padding: 50px;
+    margin-top: -30vh;
+    color:rgb(28, 28, 27);
+  }
+
+
+.icon{
+    width:300px;
+    height: 300px;
+    margin:0 140px;
+}
+
+.icon path{
+    fill: transparent;
+    stroke-width: 10;
+    stroke: rgba(0, 255, 242, 0.766);
+}
+
+button{
+  position: absolute;
+    width: 12vw;
+    height: 7vh;
+    background-color: palegoldenrod;
+    border-style: none;
+    border-radius: 18px;
+    color:black;
+    font-size: 1vw;
+    font-weight: bold;
+    left:50px;
+    top:60vh;
+    cursor: pointer;
+}
